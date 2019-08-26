@@ -1,9 +1,9 @@
-* CUCUMBER SANDBOX
+# CUCUMBER SANDBOX
 
-** Docker Selenium Command
+## Docker Selenium Command
 
-docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome:3.141.59-radium
+```docker run -d -p 4444:4444 --shm-size=2g selenium/standalone-chrome:3.141.59-radium```
 
-** Running the Tests
+##  Running the Tests
 
-mvn clean verify -Prpn
+```mvn clean verify -Prpn```
